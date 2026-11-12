@@ -1,0 +1,173 @@
+{
+  "directives": [],
+  "dom": {
+    "members": [
+      {
+        "count": 4,
+        "path": "app.activeDocument"
+      },
+      {
+        "count": 4,
+        "path": "app.activeDocument.artboards.length"
+      },
+      {
+        "count": 2,
+        "path": "app.documents.length"
+      },
+      {
+        "count": 1,
+        "path": "app.activeDocument.artboards"
+      },
+      {
+        "count": 1,
+        "path": "app.activeDocument.artboards[].name"
+      },
+      {
+        "count": 1,
+        "path": "app.documents.add()"
+      },
+      {
+        "count": 1,
+        "path": "app.documents.add().artboards[].artboardRect"
+      },
+      {
+        "count": 1,
+        "path": "app.documents.add().layers.add()"
+      },
+      {
+        "count": 1,
+        "path": "app.documents.add().layers.add().name"
+      },
+      {
+        "count": 1,
+        "path": "app.documents.add().layers[].remove()"
+      },
+      {
+        "count": 1,
+        "path": "app.open()"
+      },
+      {
+        "count": 1,
+        "path": "app.open().close()"
+      }
+    ],
+    "types": [
+      {
+        "count": 1,
+        "name": "CompoundPathItem"
+      },
+      {
+        "count": 1,
+        "name": "ExportOptionsPNG24"
+      },
+      {
+        "count": 1,
+        "name": "ExportOptionsSVG"
+      },
+      {
+        "count": 1,
+        "name": "GroupItem"
+      }
+    ]
+  },
+  "features": [
+    {
+      "count": 3,
+      "id": "dollar.env",
+      "lines": [
+        653,
+        726,
+        737
+      ]
+    },
+    {
+      "count": 2,
+      "id": "file.dialog",
+      "lines": [
+        112,
+        388
+      ]
+    },
+    {
+      "count": 9,
+      "id": "file.objects",
+      "lines": [
+        112,
+        160,
+        169,
+        200,
+        373,
+        384,
+        388,
+        497,
+        546
+      ]
+    },
+    {
+      "count": 3,
+      "id": "file.write",
+      "lines": [
+        162,
+        171,
+        202
+      ]
+    },
+    {
+      "count": 7,
+      "id": "notify",
+      "lines": [
+        137,
+        146,
+        163,
+        172,
+        204,
+        305,
+        400
+      ]
+    },
+    {
+      "count": 1,
+      "id": "scriptui.dialog",
+      "lines": [
+        405
+      ]
+    }
+  ],
+  "includes": [],
+  "kind": "script",
+  "lines": 761,
+  "menuCommands": {
+    "dynamic": 0,
+    "strings": []
+  },
+  "name": "Export for Icon Composer.jsx",
+  "needs": [
+    "language",
+    "dom",
+    "files",
+    "dialogs"
+  ],
+  "outside": [
+    {
+      "count": 3,
+      "id": "filesWritten",
+      "lines": [
+        162,
+        171,
+        202
+      ]
+    },
+    {
+      "count": 3,
+      "id": "environment",
+      "lines": [
+        653,
+        726,
+        737
+      ]
+    }
+  ],
+  "problems": [],
+  "targets": [],
+  "truncated": false
+}
